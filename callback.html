@@ -2,7 +2,7 @@
 <html>
 <body>
     <h2 id="status">Callback loaded</h2>
-
+    <!-- is github commit working -->
     <script>
         console.log("CALLBACK PAGE LOADED");
         console.log("opener =", window.opener);
@@ -10,7 +10,7 @@
         const params = new URLSearchParams(
             window.location.hash.substring(1)
         );
-
+        
         console.log("hash =", window.location.hash);
         console.log("token =", params.get("access_token"));
 

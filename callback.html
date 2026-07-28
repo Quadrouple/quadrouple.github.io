@@ -16,6 +16,12 @@
 
         if (window.opener) {
             console.log("I HAVE AN OPENER");
+
+            window.opener.postMessage(
+                "HELLO_FROM_CALLBACK",
+                "https://studio.penguinmod.com"
+            );
+            
         } else {
             console.log("NO OPENER!");
         }

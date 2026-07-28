@@ -1,2 +1,2 @@
 # quadrouple.github.io
-webpages yay
+i can't recommend using anything hosted here, this is mainly for personal projects

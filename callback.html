@@ -18,7 +18,10 @@
             console.log("I HAVE AN OPENER");
 
             window.opener.postMessage(
-                "HELLO_FROM_CALLBACK",
+                {
+                    type: "twitch_auth",
+                    access_token: token
+                },
                 "https://studio.penguinmod.com"
             );
             
